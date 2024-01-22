@@ -1,12 +1,24 @@
 #include "main.h"
 
 /**
- *  *main - check the code.
- *   *
- *    *Return: Always 0.
- *     */
-int main(void)
+ * print_alphabet_x10 - make the alphabet ten times
+ * Return: void
+ */
+
+void print_alphabet_x10(void)
+
 {
-	print_alphabetx10();
-	return (0);i
+
+	char c;
+	int i = 0;
+
+	while (i <= 9)
+	{
+	for (c = 'a'; c <= 'z'; c++)
+	{
+	_putchar(c);
+	}
+	_putchar('\n');
+	i++;
+	}
 }
