@@ -2,9 +2,8 @@
 
 /**
  * more_numbers - print 10 times the numbers from 0 up to 14
- * Return: 10 times the numbers from 0 up to 14
+ * Return: No return value
  */
-
 void more_numbers(void)
 {
     int x, y;
@@ -22,3 +21,4 @@ void more_numbers(void)
         _putchar('\n');
     }
 }
+
