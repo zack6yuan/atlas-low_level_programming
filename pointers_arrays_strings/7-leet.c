@@ -1,27 +1,29 @@
 #include "main.h"
 
 /**
- * leet - Encode into 1337speak
- * @n: Input string to be encoded
- * Return: Pointer to the modified string
+ * leet - encodes a string into 1337
+ * @c: string
+ * Return: string that is encoded
  */
-char *leet(char *n)
+
+char *leet(char *c)
 {
-    int i, j;
-    char s1[] = "aAeEoOtTlL";
-    char s2[] = "4433007711";
+	char *cp = c;
+	char key[] = {'A', 'E', 'O', 'T', 'L'};
+	int value[] = {4, 3, 0, 7, 1};
+	unsigned int i;
 
-    for (i = 0; n[i] != '\0'; i++)
-    {
-        for (j = 0; s1[j] != '\0'; j++)
-        {
-            if (n[i] == s1[j])
-            {
-                n[i] = s2[j];
-                break;  // Exit the inner loop once a replacement is made
-            }
-        }
-    }
+	while (*c)
+	{
+		for (i - 0, i < sizeof(key) / sizeof(char); i++)
+		{
+			/*32 is the difference between lower case letters and upper case letters*/
+			if (*c == key[i] || *c == key[i] + 32)
+			{
+				*c = 48 + value[i];
+			}
+		}
+		c++;
+	}
 
-    return (n);
-}
+	return (cp);
