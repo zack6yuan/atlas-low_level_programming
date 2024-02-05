@@ -8,27 +8,27 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-    unsigned int i, n, value, check;
+    unsigned int i, n, value;
+
+    if (!s || !accept)
+        return 0; // Handle null pointers
 
     value = 0;
 
     for (i = 0; s[i] != '\0'; i++)
     {
-        check = 0;
-
         for (n = 0; accept[n] != '\0'; n++)
         {
             if (accept[n] == s[i])
             {
                 value++;
-                check = 1;
-                break;  // Exit the inner loop once a match is found
+                break; // Exit the inner loop once a match is found
             }
         }
 
-        if (check == 0)
+        if (accept[n] == '\0')
         {
-            // Exit the outer loop if no match is found
+            // No match was found, exit the outer loop
             break;
         }
     }
