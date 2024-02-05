@@ -8,7 +8,7 @@
  * Return: Always 0 (Success)
  */
 
-char *_stepbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int i, n;
 
