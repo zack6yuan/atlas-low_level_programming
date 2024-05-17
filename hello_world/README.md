@@ -1,1 +1,1 @@
-This is the readme file for atlas-low_level_programming
+This is the readme file for the directory, hello_world, by Zack Yuan
