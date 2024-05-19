@@ -4,9 +4,8 @@
 main - prints putchar followed by a new line
 Return: 0
 */
-int main(void);
+int main(void)
 {
-printf("putchar\n") 
+printf("putchar\n");
+return (0); 
 }
-
-return: (0);
