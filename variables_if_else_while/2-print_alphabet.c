@@ -14,7 +14,7 @@ char c;
 
 for (c = 'a'; c <= 'z'; c++) /*for loop*/
 {
-    putchar(c);
+putchar(c);
 }
 putchar('\n');
 return (0);
