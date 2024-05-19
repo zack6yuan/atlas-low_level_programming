@@ -2,12 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
-main - prints the text required
-Return: 0
-*/
+/**
+ *main - prints the text required
+ *Return: 0
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
