@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -S -masm=intel $CFILE /*-S stops gcc after the compilation without assembling. -masm tells gcc to send the output in intel syntax*/
