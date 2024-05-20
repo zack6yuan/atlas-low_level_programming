@@ -3,9 +3,11 @@
 
 /**
  * add - adds two integers and returns the result
+ * @a - the first character that is being added
+ * @b - the second character that is being added
 */
 
-int add(int x, int y)
+int add(int a, int b)
 {
-return (x + y);
+return (a + b);
 }
