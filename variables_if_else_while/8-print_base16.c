@@ -10,13 +10,10 @@ int main(void)
 {
 int x;
 
-for (x = 0; x < 16; x++)
+for (x = 0; x <= 16; x++)
 {
-putchar ('0' + x);
-}
-else if (x = 'a'; x <= 'f'; x++);
-{
-putchar (x);
+    if (x > 10)
+    putchar()
 }
 
 putchar('\n');
