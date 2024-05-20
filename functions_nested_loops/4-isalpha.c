@@ -3,12 +3,12 @@
 
 /**
  * _isalpha - checks for alphabetic character
- * @c - function
+ * @c - the character that is being checked
  */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
-if (C >= A && C <= Z;),(c >= a && c >= z)
+if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c >= 'z'))
 return(1);
 else
 return(0);
