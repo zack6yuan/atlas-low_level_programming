@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
+printf("_");
+printf("p");
+printf("u");
+printf("t");
+printf("c");
+printf("h");
+printf("a");
+printf("r");
+printf("\n");
 
 return(0);
 }
