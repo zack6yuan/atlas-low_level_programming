@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - prints putchar followed by a new line
  * Return: 0
  */
-int _putchar(char c) /*prototype*/
+int main(void)
 {
 _putchar('_');
 _putchar('p');
