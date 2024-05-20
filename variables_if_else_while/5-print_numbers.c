@@ -8,10 +8,10 @@
 
 int main(void)
 {
-int base;
-for (base = 0; base < 10; base++)
+int x;
+for (x = 0; x < 10; x++)
 {
-putchar (base);
+putchar (x);
 }
 putchar('\n');
 
