@@ -10,6 +10,6 @@ void print_alphabetx10(void);
     char c;
     int x = 0;
 
-    while x <= 9)
+    while x <= 9
 
 }
