@@ -6,6 +6,6 @@ Return: 0
 */
 int main(void)
 {
-write("putchar\n");
+fwrite("putchar\n");
 return (0); 
 }
