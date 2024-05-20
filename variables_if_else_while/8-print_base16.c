@@ -9,6 +9,7 @@
 int main(void)
 {
 int x;
+
 for (x = 0; x < 16; x++)
 {
 putchar ('0' + x);
@@ -17,7 +18,7 @@ for (x = 'a'; x <= 'f'; x++);
 {
 putchar (x);
 }
-putchar('\n');
 
+putchar('\n');
 return (0);
 }
