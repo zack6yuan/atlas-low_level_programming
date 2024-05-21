@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_alphabetx10: prints the alphabet ten times
+ * print_alphabetx10 - prints the alphabet ten times
+ Return: the alphabet ten times
 */
 
 void print_alphabetx10(void)
