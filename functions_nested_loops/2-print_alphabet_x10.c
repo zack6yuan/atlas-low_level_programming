@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_alphabetx10 - prints the alphabet ten times
+ * print_alphabetx10: prints the alphabet ten times
  @c: the character that is being checked
 */
 
