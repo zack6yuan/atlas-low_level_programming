@@ -10,17 +10,17 @@ int print_sign(int c)
 {
     if (c > 0)
     {
-    write("+");
+    fwrite("+");
     return (1);
     }
     else if (c == 0)
     {
-    write("0");
+    fwrite("0");
     return (0);
     }
     else
     {
-    write("-");
+    fwrite("-");
     return (-1);
     }
 }
