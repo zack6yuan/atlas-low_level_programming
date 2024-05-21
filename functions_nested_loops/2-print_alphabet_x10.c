@@ -6,7 +6,7 @@
  @c: the character that is being checked
 */
 
-void print_alphabetx10(void);
+void print_alphabetx10(void)
 {
     char c;
     int x = 0; 
