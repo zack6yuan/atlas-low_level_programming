@@ -10,9 +10,9 @@
 int _abs(int);
 {
 if (c > 0) 
-_putchar(c);
+return(c);
 else if (c < 0)
-_putchar(-c);
+return(-c);
 else
-_putchar(0);
+return(0);
 }
