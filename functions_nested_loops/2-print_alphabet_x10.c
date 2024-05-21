@@ -3,6 +3,7 @@
 
 /**
  * print_alphabetx10 - prints the alphabet ten times
+ @c: the character that is being checked
 */
 
 void print_alphabetx10(void);
