@@ -13,7 +13,7 @@ void more_numbers(void)
     for (a = 0; a <= 14; a++) /*prints 0 to 14*/
     {
         for (b = 0; b <= 10; b++) /*nested loop iterates 10 times*/
-        _putchar(a + '0');  
+        putchar(a + '0');  
     }
-    _putchar('\n');   
+    putchar('\n');   
 }
