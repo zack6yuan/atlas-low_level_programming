@@ -11,10 +11,10 @@ if (n <= 0) /*if 0, prints "/n"*/
 {
 _putchar('\n');
 }
-else;
+else
 {
 int x;
-for (x = 0; x >= n; x++)/*checks if greater than zero*/
+for (x = 1; x <= n; x++)
 {
 _putchar('_');/*prints the underscore*/
 }
