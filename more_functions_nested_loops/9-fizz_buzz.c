@@ -21,7 +21,9 @@ printf("Fizz");
 else if ((n % 5) == 0) /*condition 3*/
 printf("Buzz");
 else /*condition 4*/
-printf("%d",n); 
+printf("%d", n); 
+if (n < 100)
+printf(" "); /*for spacing*/
 }
 printf("\n");
 return (0);
