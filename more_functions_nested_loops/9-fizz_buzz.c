@@ -14,15 +14,15 @@ int main()
 int n; 
 for (n = 1; n <= 100; n++) /*prints 1 to 100*/
 {
-if ((n % 3) == 0) /*condition 1*/
-printf("Fizz");
-else if ((n % 5) == 0) /*condition 2*/
-printf("Buzz");
-else if ((n % 3) == 0) && ((n % 5) == 0) /*condition 3*/
+if (((n % 3) == 0) && ((n % 5) == 0)) /*condition 1*/
 printf("FizzBuzz");
+else if ((n % 3) == 0) /*condition 2*/
+printf("Fizz");
+else if ((n % 5) == 0) /*condition 3*/
+printf("Buzz");
 else /*condition 4*/
 printf("%d",n); 
 }
-printf('\n');
+printf("\n");
 return (0);
 }
