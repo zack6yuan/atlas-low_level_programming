@@ -16,7 +16,7 @@ else
 {
 int a;
 int b;
-for (a = 0; a < n; a++) /*for loop for width*/
+for (a = 0; a < size; a++) /*for loop for width*/
 {
 for (b = 0; b < a; b++) /*for loop for length*/
 {
