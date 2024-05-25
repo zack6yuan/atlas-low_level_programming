@@ -18,7 +18,7 @@ int a;
 int b;
 for (a = 0; a < size; a++) /*for loop for width*/
 {
-for (b = 0; b < a; b++) /*for loop for length*/
+for (b = 0; b < size; b++) /*for loop for length*/
 {
 _putchar('#'); /*prints the # character*/
 }
