@@ -14,7 +14,7 @@ int x;
 int length = 0;
 for (x = 0; s[x] != '\0'; x++) /*for loop, runs until reaching null*/
 length++;
-for (x = length -1; x >= 0; x--) /*iterates in reverse*/
+for (x = length - 1; x >= 0; x--) /*iterates in reverse*/
 _putchar(s[x]);
 _putchar('\n');
 }
