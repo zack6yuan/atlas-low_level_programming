@@ -15,5 +15,5 @@ for (x = 0; s[x] != '\0'; x++) /*runs until reaching null*/
 {
 length++;
 }
-return length;
+return (length);
 }
