@@ -15,5 +15,5 @@ int x;
 for (x = 0; src[x] != '\0'; x++)
 dest[x] = src[x]; /*copies from src to dest*/
 dest[x] = '\0';
-return dest;
+return (dest);
 }
