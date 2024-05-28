@@ -16,9 +16,7 @@ for (x = 0; str[x] != '\0'; x++) /*finds the length of the string*/
 length++;
 y = length / 2; 
 if (length % 2 != 0) /*used to round up if the length is odd*/
-{
 y++; 
-}
 for (x = y; str[x] != '\0'; x++)
 _putchar(str[x]);
 _putchar('\n');
