@@ -14,6 +14,6 @@ char *_strcpy(char *dest, char *src)
 int x;
 for (x = 0; src[x] != '\0'; x++)
 dest[x] = src[x]; /*copies from src to dest*/
-dest[x] = '\0'; /*ends the interation, completed
-return (dest); /*the pointer to dest*/
+dest[x] = '\0';
+return dest;
 }
