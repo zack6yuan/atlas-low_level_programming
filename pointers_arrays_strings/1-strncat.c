@@ -15,13 +15,13 @@ int x = 0;
 int y = 0;
 while (dest[x] != '\0') /*length of dest*/
 {
-    x++;
+x++;
 }
 while (src[y] != '\0' && y < n)
 {
-    dest[x] = src[y];
-    x++;
-    y++;
+dest[x] = src[y];
+x++;
+y++;
 }
 dest[x] = '\0';
 return (dest);
