@@ -10,8 +10,8 @@
 
 char *_strcat(char *dest, char *src)
 {
-    int x;
-    int y;
+    int x = 0;
+    int y = 0;
     for (x = 0; dest[x] != '\0'; x++) /*length of dest*/
     for (y = 0; src[y] != '\0'; y++) /*length of src*/
     {
