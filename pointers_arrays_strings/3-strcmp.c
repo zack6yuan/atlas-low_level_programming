@@ -17,7 +17,7 @@ if (s1[x] != s2[x]) /*condition*/
 {
 return (s2[x] - s1[x]); 
 }
-x++ /*iteration*/
+x++; /*iteration*/
 }
 return (0);
 }
