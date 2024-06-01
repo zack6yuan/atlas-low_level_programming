@@ -12,9 +12,6 @@ int x = 0;
 
 while (s[x])
 {
-while (!(s[x] >= 'a' && s[x] <= 'z')) /*while not lowercase*/
-x++;
-
 if (s[x - 1] == ' ' || /*space*/
 s[x - 1] == '\t' || /*tabulation*/
 s[x - 1] == '\n' || /*new line*/
