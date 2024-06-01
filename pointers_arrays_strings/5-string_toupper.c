@@ -10,13 +10,12 @@
 
 char *string_toupper(char *s)
 {
-int x;
-
+int x = 0;
 while (s[x] != '\0')
 {
 if (s[x] >= 97 && s[x] <= 122) /* 97 (a) and 122 (z) */
 s[x] = s[x] - 32; /*lowercase to uppercase using ASCII*/
 x++; 
 }
-return (0);
+return (s);
 }
