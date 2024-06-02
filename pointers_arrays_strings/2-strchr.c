@@ -14,8 +14,8 @@ int x;
 
 for (x = 0; s[x] != '\0'; x++) /*until reaches null*/
 {
-    if (s[x] == c)
-    return (s + x); /*if found, returns pointer*/
+if (s[x] == c)
+return (s + x); /*if found, returns pointer*/
 }
 return ('\0'); /*null if not found*/
 }
