@@ -3,6 +3,7 @@
 
 /**
  * cap_string - capitalizes all words of a string
+ * @s: string that is being capitalized
  * Return: the capitalized words of the string
  */
 
