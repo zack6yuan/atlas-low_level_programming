@@ -12,7 +12,8 @@ int x = 0;
 
 while (s[x])
 {
-if (s[x - 1] == ' ' || /*space*/
+if (x == 0 ||
+s[x - 1] == ' ' || /*space*/
 s[x - 1] == '\t' || /*tabulation*/
 s[x - 1] == '\n' || /*new line*/
 s[x - 1] == ',' ||
