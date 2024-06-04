@@ -25,7 +25,7 @@ s[x - 1] == '"' ||
 s[x - 1] == '(' ||
 s[x - 1] == ')' ||
 s[x - 1] == '{' ||
-s[x - 1] == '}' )
+s[x - 1] == '}')
 {
 if (s[x] >= 'a' && s[x] <= 'z')
 s[x] = s[x] - 32; /*lowercase to uppercase using ASCII*/
