@@ -7,5 +7,13 @@
  */
 void _print_rev_recursion(char *s)
 {
-
+if (*s == '\0')
+{
+_putchar('\n'); /*new line if null*/
+}
+else
+{
+_puts_recursion(s + 1); /*recursive call first for reverse*/
+_putchar(*s); /*prints string*/
+}
 }
