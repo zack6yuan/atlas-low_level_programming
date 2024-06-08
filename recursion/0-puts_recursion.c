@@ -11,7 +11,7 @@ if (*s == '\0')
 {
 _putchar('\n'); /*new line if null*/
 }
-else    
+else
 {
 _putchar(*s); /*prints string*/
 _puts_recursion(s + 1); /*recursive call*/
