@@ -13,7 +13,7 @@ _putchar('\n'); /*new line if null*/
 }
 else
 {
-_puts_recursion(s + 1); /*recursive call first for reverse*/
+_print_rev_recursion(s + 1); /*recursive call first for reverse*/
 _putchar(*s); /*prints string*/
 }
 }
