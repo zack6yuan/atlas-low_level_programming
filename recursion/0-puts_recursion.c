@@ -13,7 +13,7 @@ void _puts_recursion(char *s)
     }
     else    
     {
-        _putchar(*s); ./*prints string*/
+        _putchar(*s); /*prints string*/
         _puts_recursion(s + 1); /*recursive call*/
     }
 }
