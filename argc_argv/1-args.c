@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - prints the number of arguments passed
- * @argc:
- * @argv:
+ * @argc: count of arguments
+ * @argv: vector of arguments
  * Return: 0
  */
 int main(int argc, char *argv[])
