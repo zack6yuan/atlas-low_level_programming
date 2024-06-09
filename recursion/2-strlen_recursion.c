@@ -11,4 +11,8 @@ if (*s != '\0') /*if NULL*/
 {
 return (1 + _strlen_recursion(s + 1)); /*1 for current char, then recursive call*/
 }
+else
+{
+return (0);
+}
 }
