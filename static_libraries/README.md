@@ -1,0 +1,1 @@
+This is the readme for the directory "static_libraries" by Zack Yuan
