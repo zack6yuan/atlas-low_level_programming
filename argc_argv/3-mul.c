@@ -19,7 +19,7 @@ else
 {
 num1 = atoi(argv[1]); /*atoi (string to integer)*/
 num2 = atoi(argv[2]); /*stored in num1 and num2*/
-printf("%d\n", num1 * num2); /*multiplication*/
+printf("%d\n", num1 *num2); /*multiplication*/
 }
 return (0);
 }
