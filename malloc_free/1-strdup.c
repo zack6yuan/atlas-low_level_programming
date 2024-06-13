@@ -8,31 +8,31 @@
  */
 char *_strdup(char *str)
 {
-    int x; /*for loop iteration*/
-    int length = 0; /*for length*/
-    char *ptr; /*pointer that will be returned*/
+int x; /*for loop iteration*/
+int length = 0; /*for length*/
+char *ptr; /*pointer that will be returned*/
 
-    if (str == NULL) /*parameter if str == NULL*/
-    {
-        return(NULL);
-    }
+if (str == NULL) /*parameter if str == NULL*/
+{
+return(NULL);
+}
 
-    while (str[length]) /*iterate to count length*/
-    {
-        length++;
-    }
+while (str[length]) /*iterate to count length*/
+{
+length++;
+}
 
-    ptr = malloc((length + 1) * sizeof(char)); /*memory + space for NULL*/
+ptr = malloc((length + 1) * sizeof(char)); /*memory + space for NULL*/
 
-    if (ptr == NULL)
-    {
-        return(NULL);
-    }
+if (ptr == NULL)
+{
+return(NULL);
+}
 
-    for (x = 0; x < length; x++)
-    {
-        ptr[x] = str[x]; /*copy*/
-    }  
+for (x = 0; x < length; x++)
+{
+ptr[x] = str[x]; /*copy*/
+}  
 
-    return (ptr); /*return pointer*/
+return (ptr); /*return pointer*/
 }
