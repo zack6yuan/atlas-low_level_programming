@@ -14,7 +14,7 @@ char *ptr; /*pointer that will be returned*/
 
 if (str == NULL) /*parameter if str == NULL*/
 {
-return(NULL);
+return (NULL);
 }
 
 while (str[length]) /*iterate to count length*/
@@ -26,13 +26,13 @@ ptr = malloc((length + 1) * sizeof(char)); /*memory + space for NULL*/
 
 if (ptr == NULL)
 {
-return(NULL);
+return (NULL);
 }
 
 for (x = 0; x < length; x++)
 {
 ptr[x] = str[x]; /*copy*/
-}  
+}
 
 return (ptr); /*return pointer*/
 }
