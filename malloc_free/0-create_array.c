@@ -27,5 +27,5 @@ for (x = 0; x < size; x++) /*iteration through array*/
 {
 array[x] = c;
 }
-return(array); /*return pointer*/
+return (array); /*return pointer*/
 }
