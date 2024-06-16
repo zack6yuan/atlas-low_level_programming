@@ -17,7 +17,7 @@ return (NULL);
 pointer = malloc(size * nmemb); /*calculates number of bytes for array*/
 if (pointer == NULL) /*check if malloc was successful*/
 return (NULL);
-for (x == 0; x < (size * nmemb); x++;) /*ensures malloc is set to 0*/
+for (x = 0; x < (size * nmemb); x++) /*ensures malloc is set to 0*/
 pointer[x] = 0;
 return (pointer); /*if successful, return pointer*/
 }
