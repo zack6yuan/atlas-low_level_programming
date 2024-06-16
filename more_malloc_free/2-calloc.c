@@ -11,11 +11,13 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 char *pointer;
+unsigned int x;
 if ((size == 0) || (nmemb == 0)) /*condition if size or nmemb == 0*/
 return (NULL);
 pointer = malloc(size * nmemb); /*calculates number of bytes for array*/
 if (pointer == NULL) /*check if malloc was successful*/
 return (NULL);
-else
+for (x == 0; x < (size * nmemb); x++;) /*ensures malloc is set to 0*/
+pointer[x] = 0;
 return (pointer); /*if successful, return pointer*/
 }
