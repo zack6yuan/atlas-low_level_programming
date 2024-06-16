@@ -8,7 +8,7 @@
  * @b: unsigned int
  * Return: pointer to the allocated memory
  */
-void *malloc_checked(unsigned int b);
+void *malloc_checked(unsigned int b)
 {
 int *pointer; /*stores the memory*/
 pointer = malloc(b); /*malloc statement*/
