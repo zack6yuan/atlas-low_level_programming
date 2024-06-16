@@ -13,8 +13,6 @@ void *malloc_checked(unsigned int b);
 int *pointer; /*stores the memory*/
 pointer = malloc(b); /*malloc statement*/
 if (pointer == NULL)
-{
 exit(98); /*exit status value*/
-}
 return (pointer); /*pointer returned to allocated memory*/
 }
