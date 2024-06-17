@@ -15,11 +15,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
     int length;
     char *pointer;
 
-    if (s1 == NULL){
+    if (s1 == NULL)
+    {
         s1 = "";
     }
-    if (s2 == NULL){
-    s2 = "";
+    if (s2 == NULL)
+    {
+        s2 = "";
     }
 
     while (s1[x]) /*calculate length*/
@@ -36,7 +38,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
     for (x = 0; x < length; x++) /*calculate length*/
     {
-    if (x < n)
+    if ((unsigned int)x < n)
         pointer[x] = s1[x];
     else
         pointer[x] = s2[x - n];
