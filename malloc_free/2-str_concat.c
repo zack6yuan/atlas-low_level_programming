@@ -15,9 +15,9 @@ int y = 0; /*iteration thorough s2*/
 int size1 = 0; /*size of s1*/
 int size2 = 0; /*size of s2*/
 
-while (s1[size1] != NULL) /*while not null, iterate*/
+while (s1[size1] != '\0') /*while not null, iterate*/
 size1++; 
-while (s2[size2] != NULL) /*while not null, iterate*/
+while (s2[size2] != '\0') /*while not null, iterate*/
 size2++;
 pointer = malloc(sizeof(char)*(size1 + size2 + 1)); /*concat strings + space for NULL*/
 if (pointer == NULL)
