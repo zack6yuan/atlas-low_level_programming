@@ -27,7 +27,7 @@ for (x = 0; x < size1; x++)
 {
 pointer[x] = s1[x]; /*copy into pointer*/
 }
-x = 0;
+
 for (y = 0; y < size2; y++)
 {
 pointer[x + y] = s2[y];
