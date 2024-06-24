@@ -20,7 +20,7 @@ for (x = 0; x < n; x++)
 string = va_arg(digits, char *);
 if (string == NULL) /*parameter*/
 {
-string = "nil";
+string = "(nil)";
 }
 else
 {
