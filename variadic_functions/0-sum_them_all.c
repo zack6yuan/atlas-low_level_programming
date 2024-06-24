@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <stdarg.h>
 #include "variadic_functions.h"
 /**
  * sum_them_all - returns the sum of all its parameters
  * Return: the sum
  */
-int sum_them_all(const unsigned int n, ...);
+int sum_them_all(const unsigned int n, ...)
 {
 va_list digits;
 int sum = 0; /*variable to store sum*/
