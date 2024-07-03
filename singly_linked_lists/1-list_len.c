@@ -15,9 +15,8 @@ size_t list_len(const list_t *h)
 
 	while (h != NULL)
 	{
-		count++; /*increment the counter*/
+		counter++; /*increment the counter*/
 		h = h->next; /*move to next node*/	
 	}
-	return (count);
+	return (counter);
 }
-
