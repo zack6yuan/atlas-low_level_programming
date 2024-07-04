@@ -17,11 +17,11 @@ unsigned int length = 0; /*used to store input strlen*/
 list2 = malloc(sizeof(list_t)); /*malloc statement*/
 if (!list2) /*check if malloc was successful*/
 {
-    return (NULL);
+return (NULL);
 }
 for (x = 0; str[x] != '\0'; x++)
 {
-    length++;
+length++;
 }
 list2->str = strdup(str); /*duplicates string + assigns to list2*/
 list2->len = length; /*assigns length to list2*/
