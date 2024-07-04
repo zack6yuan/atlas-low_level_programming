@@ -11,21 +11,21 @@
 
 size_t print_list(const list_t *h)
 {
-	int counter = 0; /*counter for nodes*/
+int counter = 0; /*counter for nodes*/
 
-	while (h != NULL)
-	{
-		if (h->str == NULL)
-		{
-			printf("[0] (nil)\n"); /*parameter*/
-		}
-		else
-		{
-			printf("[%d] %s\n", h->len, h->str); /*strlen + str*/
-		}
-		counter++;
-		h = h->next;
-	}
-	return (counter);
+while (h != NULL)
+{
+if (h->str == NULL)
+{
+printf("[0] (nil)\n"); /*parameter*/
+}
+else
+{
+printf("[%d] %s\n", h->len, h->str); /*strlen + str*/
+}
+counter++;
+h = h->next;
+}
+return (counter);
 }
 
