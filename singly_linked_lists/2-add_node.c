@@ -10,23 +10,23 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
-    list_t *list2; /*new pointer to list_t*/
-    unsigned int x; /*counter for loop*/
-    unsigned int length = 0; /*used to store input strlen*/
+list_t *list2; /*new pointer to list_t*/
+unsigned int x; /*counter for loop*/
+unsigned int length = 0; /*used to store input strlen*/
 
-    list2 = malloc(sizeof(list_t)); /*malloc statement*/
-    if (!list2) /*check if malloc was successful*/
-    {
-        return (NULL);
-    }
-    for (x = 0; str[x] != '\0'; x++)
-    {
-        length++;
-    }
-    list2->str = strdup(str); /*duplicates string + assigns to list2*/
-    list2->len = length; /*assigns length to list2*/
-    list2->next = *head; /*new node head (beginning)*/
-    *head = list2; /*head = new node*/
+list2 = malloc(sizeof(list_t)); /*malloc statement*/
+if (!list2) /*check if malloc was successful*/
+{
+    return (NULL);
+}
+for (x = 0; str[x] != '\0'; x++)
+{
+    length++;
+}
+list2->str = strdup(str); /*duplicates string + assigns to list2*/
+list2->len = length; /*assigns length to list2*/
+list2->next = *head; /*new node head (beginning)*/
+*head = list2; /*head = new node*/
 
-    return (*head);
+return (*head);
 }
