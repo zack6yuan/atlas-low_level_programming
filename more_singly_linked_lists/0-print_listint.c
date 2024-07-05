@@ -13,9 +13,9 @@ size_t nodes = 0; /*counter for nodes*/
 
 while (h != NULL)
 {
-    printf("%d\n", h->n); /*value of current node*/
-    h = h->next; /*move to the next node*/
-    nodes++; /*increment the counter*/
+printf("%d\n", h->n); /*value of current node*/
+h = h->next; /*move to the next node*/
+nodes++; /*increment the counter*/
 }
 
 return (nodes); /*return node count*/
