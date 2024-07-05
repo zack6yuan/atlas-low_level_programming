@@ -9,5 +9,13 @@
  */
 size_t listint_len(const listint_t *h)
 {
+size_t nodes = 0; /*counter for nodes*/
 
+while (h != NULL)
+{
+nodes++; /*increment the counter*/
+h = h->next; /*move to the next node*/
+}
+
+return (nodes); /*return node count*/
 }
