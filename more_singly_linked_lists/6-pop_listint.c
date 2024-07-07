@@ -11,7 +11,7 @@ int data;
 
 if (*head == NULL) /*parameter*/
 {
-return(0);
+return (0);
 }
 
 node = *head; /*set node to the head*/
