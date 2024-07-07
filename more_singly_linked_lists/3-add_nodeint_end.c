@@ -24,18 +24,17 @@ newnode->n = n;
 newnode->next = NULL;
 
 if (*head == NULL)
-    {
-        *head = newnode; /*set newnode to head if empty*/
-    }
-    else
-    {
-        lastnode = *head;
-    }
-    while (lastnode->next != NULL) /*find the last node*/
-    {
-        lastnode = lastnode->next;
-    }
-    lastnode->next = newnode; /*set newnode to the end*/
-    
-    return (newnode);
+{
+*head = newnode; /*set newnode to head if empty*/
+}
+else
+{
+lastnode = *head;
+while (lastnode->next != NULL) /*find the last node*/
+{
+lastnode = lastnode->next;
+}
+lastnode->next = newnode; /*set newnode to the end*/
+}
+return (newnode);
 }
