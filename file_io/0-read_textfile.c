@@ -14,14 +14,14 @@ char *buffer; /*pointer to char*/
 
 if (filename == NULL)
 {
-return (0); 
+return (0);
 }
-file_descriptor = open(filename, O_RDONLY); /*attempt to open in read-only mode*/
+file_descriptor = open(filename, O_RDONLY); /*read-only mode*/
 if (file_descriptor == -1)
 {
 return (0);
 }
-buffer = malloc(sizeof(char) * (letters)); /*malloc for buffer to hold chars of  "letters"*/
+buffer = malloc(sizeof(char) * (letters)); /*hold chars of  "letters"*/
 if (buffer == NULL)
 {
 close(file_descriptor);
