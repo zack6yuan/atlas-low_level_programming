@@ -7,8 +7,6 @@
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-int value;
-
 if (index > 63) /*max val for (-) long int*/
 {
 return (-1); /*error*/
