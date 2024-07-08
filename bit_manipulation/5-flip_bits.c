@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include "lists.h"
 /**
  * flip_bits - returns the number of bits you would need to flip to advance numbers
  * @n:

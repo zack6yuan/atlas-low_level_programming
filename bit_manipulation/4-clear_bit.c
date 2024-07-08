@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include "lists.h"
 /**
  * clear_bit - sets the value of a bit to 0 at a given index
  * @n:
