@@ -12,7 +12,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
         ssize_t writeval; /*stores write result*/
         char *buffer; /*pointer to char*/
 
-        if (filename == NULL || buffer == NULL)
+        if (filename == NULL)
         {
                 return (0); 
         }
@@ -27,12 +27,16 @@ ssize_t read_textfile(const char *filename, size_t letters)
                 close(file_descriptor);
                 return (0);
         }
-        readval = read(file_descriptor, buffer, letters);
+        readval = read(file_descriptor, buffer, letters); /*reads and stores in readval*/
         if (readval == -1)
         {
+                free(buffer);
+                close(file_descriptor);
                 return (0);
         }
-        writeval = write(STDOUT_FILENO, buffer, readval);
+        writeval = write(STDOUT_FILENO, buffer, readval); /*writes and stores in writeval*/
         free(buffer);
-        return (writeval);
+        close(file_descriptor);
+        
+        return (writeval); /*returns the value stored*/
 }
