@@ -26,7 +26,7 @@ if (text_content == NULL) /*if text_content == NULL*/
 close(file_descriptor);
 return (-1);
 }
-while (text_content != NULL) /*while text_content != NULL*/
+while (text_content != '\0') /*while text_content != NULL*/
 {
 for (length = 0; text_content[length] != '\0'; length++); /*length of text_content*/
 writeval = write(file_descriptor, text_content, length);
