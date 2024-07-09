@@ -8,8 +8,8 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 int file_descriptor; /*stores descriptor*/
-ssize_t readval; /*stores read result*/
-ssize_t writeval; /*stores write result*/
+int readval; /*stores read result*/
+int writeval; /*stores write result*/
 char *buffer; /*pointer to char*/
 
 if (filename == NULL)
