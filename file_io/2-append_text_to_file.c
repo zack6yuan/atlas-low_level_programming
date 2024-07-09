@@ -17,24 +17,20 @@ if (filename == NULL)
 return (-1);
 } /*read + write only, append*/
 file_descriptor = open(filename, O_WRONLY | O_APPEND);
-if (descriptor == -1)
+if (file_descriptor == -1)
 {
 return (-1);
-}
-if (text_content != NULL)
-{
-close(file_descriptior);
-return(1);
 }
 if (text_content != NULL)
 {
 length = strlen(text_content); /*length of text_content*/
-writeval = write(file_descriptior, text_content, length);
+writeval = write(file_descriptor, text_content, length);
 if (writeval == -1) /*if write operation failed*/
 {
+close(file_descriptor);
 return (-1);
 }
-close(file_descriptior);
-return (1); /*success*/
+close(file_descriptor);
 }
+return (1); /*success*/
 }
