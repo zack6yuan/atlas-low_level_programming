@@ -16,5 +16,15 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 		{
 			return (NULL);
 		}
+                new_node->n = n; /*assign new node with value*/
+                new_node->next = *head; /*set new node to current head*/
+                new_node->prev = NULL; /*set prev to NULL*/
 
+                if (*head != NULL)
+                {
+                        (*head)->prev = new_node;
+                }
+                *head = new_node; /*assign to head ptr*/
+
+                return (*head); /*return address of new element*/
 }
