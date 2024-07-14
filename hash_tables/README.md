@@ -1,4 +1,5 @@
 # hash_tables
+Hash tables are a type of data structure in which the address/ index value of the data element is generated from a hash function. This enables very fast data access as the index value behaves as a key for the data value.
 ## Tasks
 
 ## 0. >>> ht = {}
