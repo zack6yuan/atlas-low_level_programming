@@ -13,7 +13,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		unsigned long int idx = 0;
                 char *data;
 
-		if (!ht || !key || !value) /*check if any inputs are NULL*/
+		if (!ht || !key || !*key || !value) /*check if any inputs are NULL*/
                 {
                         return (0);
                 } /*calculate key index and store in idx*/
