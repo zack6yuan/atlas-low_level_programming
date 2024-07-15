@@ -21,7 +21,7 @@ hash_table_t *hash_table_create(unsigned long int size)
                         free(new_table); /*free memory*/
                         return (NULL);
                 }
-                for (x = 0, x < size, x++); /*iterate through each slot*/
+                for (x = 0, x < size, x++) /*iterate through each slot*/
                 {
                         new_table->array[x] = NULL;
                 }
