@@ -5,7 +5,7 @@
  * Return: pointer top the newly created hash table
  * or...if something goes wrong, returns NULL
  */
-hash_table_t *hash_table_create(unsigned long int size);
+hash_table_t *hash_table_create(unsigned long int size)
 {
                 hash_table_t *new_table; /*new table pointer*/
                 unsigned long int x; /*used to iterate through table*/
