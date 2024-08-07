@@ -41,5 +41,3 @@ int **allocate_map(int n, int m)
      return (map);
 }
 ```
-
-https://www.github.com/zack6yuan/atlas-low_level_programming/search_algorithms
