@@ -55,9 +55,9 @@ void print_array(int *array, size_t start, size_t end)
         printf("Searching in array: ");
         for (index = start; index <= end; index++) /*loop from start to end*/
         {
-                if (i != start) /*check if first element*/
+                if (index != start) /*check if first element*/
                 {
-                        printf(", ") /*seperate elements*/
+                        printf(", "); /*seperate elements*/
                 }
                 printf("%d", array[index]); /*prints current element*/
         }
