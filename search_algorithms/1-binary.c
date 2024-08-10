@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stddef.h>
 /**
- * linear_search - searches for a value in a sorted array...
+ * binary_search - searches for a value in a sorted array...
  * of integers using the Binary Search Algorithm.
  * @array: a pointer to the first element of the array to seach in.
  * @size: the number of elements in "array."
