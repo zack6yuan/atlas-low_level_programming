@@ -35,7 +35,7 @@ int binary_search(int *array, size_t size, int value)
                 }
                 else
                 {
-                        return (mid_index) /*return index*/
+                        return (mid_index); /*return index*/
                 }
         }
         return (-1); /*not found*/
