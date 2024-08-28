@@ -1,4 +1,4 @@
-# atlas-low_level_programming - Zack Yuan
+# Atlas Low Level Programming
 ## Projects
 - C - Hello, World
 - C - Variables, If, Else, While
